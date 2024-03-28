@@ -1,0 +1,31 @@
+{
+	"name": "lI15SO0_Snippets",
+	"contributes": {
+		"snippets": [
+			{
+				"language": ["global", "all"],
+				"path": "./snippets/global.json"
+			},
+			{
+				"language": "cpp",
+				"path": "./snippets/cpp.json"
+			},
+			{
+				"language": "go",
+				"path": "./snippets/go.json"
+			},
+			{
+				"language": "lua",
+				"path": "./snippets/lua.json"
+			},
+			{
+				"language": "json",
+				"path": "./snippets/json.json"
+			},
+			{
+				"language": "rust",
+				"path": "./snippets/rust.json"
+			}
+		]
+	}
+}

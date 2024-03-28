@@ -1,0 +1,12 @@
+{
+	"Program once": {
+		"prefix": "pgonce",
+		"body": [
+			"#ifndef _${TM_FILENAME_BASE/(.*)/${1:/upcase}/}${TM_FILENAME/.*\\.(.*)/_${1:/upcase}/}_",
+			"#define _${TM_FILENAME_BASE/(.*)/${1:/upcase}/}${TM_FILENAME/.*\\.(.*)/_${1:/upcase}/}_",
+			"$0",
+			"#endif // ${TM_FILENAME}"
+		],
+	"description": "Fast macro for program once."
+	}
+}
