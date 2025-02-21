@@ -1,0 +1,11 @@
+{
+	"Class with Filename": {
+		"prefix": "classfn",
+		"body": [
+			"class ${TM_FILENAME_BASE/\\b(.)/${1:/upcase}/} {",
+			"\t$0",
+			"}"
+		],
+		"description": "Create a new class with filename."
+	}
+}
